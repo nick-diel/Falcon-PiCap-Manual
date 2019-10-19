@@ -1,5 +1,5 @@
 # Unofficial Falcon PiCap Manual
-**Version 0.1**
+**Version 0.2**
 
 This is the unofficial manual for the Falcon PiCap.  It is not associated with PixelController, LLC, David Pitts, or Falcon Christmas.  This information is provided as is with no warranty, the authors and contributors or anyone else connected with this manual are not responsible for your use of the information contained or linked in this manual, use at your own risk.
 
@@ -65,13 +65,14 @@ In addition, there is a jumper to enable a 120Ω termination resistor.  In most 
 ![image](images/DMX_Selected.png?raw=true)
 
 ### Pin Assignment
-| Output | Data + | Data - | GND |
+| Output | Data +<br>(non-inverted)| Data -<br>(inverted)| GND |
 | ------ | ------ | ------ | --- |
-| **DMX** | Pin 2 | Pin 1 | Pin 7 |
-| **LOR** | Pin 5 | Pin 4 | Pin 6 |
-| **REN** | Pin 4 | Pin 5 | Pin 2|
+| **DMX** | Pin 1 | Pin 2 | Pin 7 |
+| **LOR** | Pin 4 | Pin 5 | Pin 6 |
+| **REN** | Pin 5 | Pin 5 | Pin 2|
 
 ## Raspberry Pi Pin Usage
+Note - when using WS2811 outputs, you cannot use GPIO 18 or 19.
 
 | Pin Number | Pin Name | Pin Usage |
 | ---------- | -------- | --------- |
