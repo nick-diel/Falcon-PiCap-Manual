@@ -1,5 +1,5 @@
 # Unofficial Falcon PiCap Manual
-**Version 0.2**
+**Version 0.3**
 
 This is the unofficial manual for the Falcon PiCap.  It is not associated with PixelController, LLC, David Pitts, or Falcon Christmas.  This information is provided as is with no warranty, the authors and contributors or anyone else connected with this manual are not responsible for your use of the information contained or linked in this manual, use at your own risk.
 
