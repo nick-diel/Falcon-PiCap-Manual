@@ -69,7 +69,7 @@ In addition, there is a jumper to enable a 120Ω termination resistor.  In most 
 | ------ | ------ | ------ | --- |
 | **DMX** | Pin 1 | Pin 2 | Pin 7 |
 | **LOR** | Pin 4 | Pin 5 | Pin 6 |
-| **REN** | Pin 5 | Pin 5 | Pin 2|
+| **REN** | Pin 5 | Pin 4 | Pin 2|
 
 ## Raspberry Pi Pin Usage
 Note - when using WS2811 outputs, you cannot use GPIO 18 or 19.
